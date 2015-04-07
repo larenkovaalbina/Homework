@@ -38,7 +38,7 @@ public:
 		sizeset = 0;
 	}
 
-	void add(const T& elem) // Добавить элемент 
+	void add(const T& elem) // Добавить элемент // используется 3 цикла, оценка времени работы О(3N)
 	{
 		T element = elem;
 
@@ -74,7 +74,7 @@ public:
 
 	};
 
-	void remove(const T& elem)	// Удалить элемент
+	void remove(const T& elem)	// Удалить элемент // используется цикл в цикле, О(N^2)
 	{
 		T element = elem;
 		bool flag = true;
@@ -112,8 +112,8 @@ public:
 
 	};
 
-	bool contains(const T& elem) const	// Cодержится ли элемент
-	{
+	bool contains(const T& elem) const	// Cодержится ли элемент // используется один цикл, О(N)
+	{ 
 
 		T element = elem;
 
@@ -128,7 +128,7 @@ public:
 
 	};
 
-	int size() const // Узнать размер множества
+	int size() const // Узнать размер множества // O(1)
 	{
 		return sizeset;
 	};

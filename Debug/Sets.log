@@ -1,0 +1,50 @@
+﻿Сборка начата 07.04.2015 23:23:59.
+     1>Проект "C:\Users\Альбина\Desktop\Sets\Homework\Sets.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\альбина\desktop\sets\homework\iset.h(46): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\альбина\desktop\sets\homework\iset.h(42): при компиляции функции-члена "void MySet<int>::add(const T &)" класса шаблон
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\альбина\desktop\sets\homework\main.cpp(9): см. ссылку на создание экземпляров функции шаблон при компиляции "void MySet<int>::add(const T &)"
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\альбина\desktop\sets\homework\main.cpp(5): см. ссылку на создание экземпляров класса шаблон при компиляции "MySet<int>"
+     1>c:\users\альбина\desktop\sets\homework\iset.h(57): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\альбина\desktop\sets\homework\iset.h(66): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\альбина\desktop\sets\homework\iset.h(84): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\альбина\desktop\sets\homework\iset.h(78): при компиляции функции-члена "void MySet<int>::remove(const T &)" класса шаблон
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\альбина\desktop\sets\homework\main.cpp(10): см. ссылку на создание экземпляров функции шаблон при компиляции "void MySet<int>::remove(const T &)"
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\альбина\desktop\sets\homework\iset.h(93): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\альбина\desktop\sets\homework\iset.h(122): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\альбина\desktop\sets\homework\iset.h(116): при компиляции функции-члена "bool MySet<int>::contains(const T &) const" класса шаблон
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\альбина\desktop\sets\homework\main.cpp(11): см. ссылку на создание экземпляров функции шаблон при компиляции "bool MySet<int>::contains(const T &) const"
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Альбина\Desktop\Sets\Homework\Debug\Sets.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Альбина\Desktop\Sets\Homework\Debug\Sets.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Альбина\Desktop\Sets\Homework\Debug\Sets.lib" /MACHINE:X86 Debug\main.obj
+         Sets.vcxproj -> C:\Users\Альбина\Desktop\Sets\Homework\Debug\Sets.exe
+     1>Сборка проекта "C:\Users\Альбина\Desktop\Sets\Homework\Sets.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.95
